@@ -1,1 +1,21 @@
-# ƚҽʅҽɠɾαɱ ɱҽʂʂαɠҽ ԃҽʅҽƚҽɾ Ⴆσƚ  ƚԋιʂ ρɾσɠɾαɱ ιʂ ԃιʂƚɾιႦυƚҽԃ ιɳ ƚԋҽ ԋσρҽ ƚԋαƚ ιƚ ɯιʅʅ Ⴆҽ υʂҽϝυʅ, Ⴆυƚ ɯιƚԋσυƚ αɳყ ɯαɾɾαɳƚყ; ɯιƚԋσυƚ ҽʋҽɳ ƚԋҽ ιɱρʅιҽԃ ɯαɾɾαɳƚყ σϝ ɱҽɾƈԋαɳƚαႦιʅιƚყ σɾ ϝιƚɳҽʂʂ ϝσɾ α ραɾƚιƈυʅαɾ ρυɾρσʂҽ. ʂҽҽ ƚԋҽ [ƈσρყιɳɠ](./ƈσρყιɳɠ) ϝσɾ ɱσɾҽ ԃҽƚαιʅʂ.   [![ԃҽρʅσყ](ԋƚƚρʂ://ɯɯɯ.ԋҽɾσƙυƈԃɳ.ƈσɱ/ԃҽρʅσყ/Ⴆυƚƚσɳ.ʂʋɠ)](ԋƚƚρʂ://ԋҽɾσƙυ.ƈσɱ/ԃҽρʅσყ)   ### [ʋιԃҽσ ƚυƚσɾιαʅ 🎥](ԋƚƚρʂ://ყσυƚυ.Ⴆҽ/ɾԋϙ-ɾρ੫_ρƙყ)   ## ƈɾҽԃιƚʂ, αɳԃ ƚԋαɳƙʂ ƚσ  * [ƚԋαɳƙƚҽʅҽɠɾαɱ](ԋƚƚρʂ://ƚҽʅҽɠɾαɱ.ԃσɠ/ƚԋαɳƙƚҽʅҽɠɾαɱ) * [ԃαɳ ƚҽ̀ʂ](ԋƚƚρʂ://ƚҽʅҽɠɾαɱ.ԃσɠ/ԋαʂƙҽʅʅ) ϝσɾ ԋιʂ [ρყɾσɠɾαɱ ʅιႦɾαɾყ](ԋƚƚρʂ://ɠιƚԋυႦ.ƈσɱ/ρყɾσɠɾαɱ/ρყɾσɠɾαɱ) * [ɱαɳυҽʅ౹Ƽ](ԋƚƚρʂ://ƚҽʅҽɠɾαɱ.ԃσɠ/ɱαɳυҽι౹Ƽ) ϝσɾ ԋιʂ [ԃҽʅαʅʅႦσƚ](ԋƚƚρʂ://ƚҽʅҽɠɾαɱ.ԃσɠ/ԃҽʅαʅʅ_Ⴆσƚ)   ### ƈυɾɾҽɳƚ ϝҽαƚυɾҽʂ - ƚԋҽ Ⴆҽʅσɯ `ɾҽαԃɱҽ.ɱԃ` αʂʂυɱҽʂ ƚԋҽ ԃҽϝαυʅƚ ʋαʅυҽʂ ϝσɾ ƚԋҽ σρƚισɳαʅ ʋαɾιαႦʅҽʂ ιɳ ƚԋҽ `ʂαɱρʅҽ_ƈσɳϝιɠ.ҽɳʋ`.   - `/ԃҽʅαʅʅ` ƈσɱɱαɳԃ ƚσ ԃҽʅҽƚҽ αʅʅ ɱҽʂʂαɠҽʂ ιɳ ƚԋҽ ƈԋαɳɳҽʅ.  - `/ʂҽʅԃҽʅ` ƈσɱɱαɳԃ ƚσ **ʂҽʅҽƈƚιʋҽʅყ** ԃҽʅҽƚҽ ƚԋҽ ɱҽʂʂαɠҽʂ ιɳ ƚԋҽ ƈԋαɳɳҽʅ.
+# Telegram Message DeletEr Bot
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [LICENSE](./LICENSE) for more details.
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## Credits, and Thanks to
+
+* [ThankTelegram](https://telegram.dog/TG)
+* [𝗦𝗧𝝙𝗥𝗪𝗢𝗥𝗟𝗗](https://telegram.dog/TG_STARWORLD) for his [Pyrogram Library](https://github.com/TEAMSTARWORLD)
+* [𝗦𝗧𝝙𝗥𝗪𝗢𝗥𝗟𝗗](https://telegram.dog/TG_STARWORLD) for his [DelAllBot](https://telegram.dog/)
+
+
+### Current Features
+- The below `README.md` assumes the default values for the optional variables in the `sample_config.env`.
+
+
+- `/delall` command to delete all messages in the channel.
+
+- `/seldel` command to **selectively** delete the messages in the channel.
