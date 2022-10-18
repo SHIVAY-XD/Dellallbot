@@ -36,7 +36,7 @@ async def make_chat_user_join(
     except UserAlreadyParticipant:
         pass
     except (InviteHashExpired, InviteHashInvalid) as e:
-        return False, str(e)
+        return True, str(e)
     await sleep(7)
     _existing_permissions = await message.chat.get_member(user_id)
     if _existing_permissions.status == ChatMemberStatus.OWNER:
