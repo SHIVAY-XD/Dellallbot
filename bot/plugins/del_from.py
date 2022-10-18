@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# (c) Star op
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -49,7 +49,7 @@ async def del_from_command_fn(client: Bot, message: Message):
     if status_message:
         await status_message.edit_text(
             "saved starting message_id. "
-            "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
+            "https://github.com/TEAMSTARWORLD/Dellallbot"
         )
         await status_message.delete()
     await message.delete()
