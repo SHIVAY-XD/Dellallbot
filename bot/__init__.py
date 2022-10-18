@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# (c) Star op
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -79,32 +79,32 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
-GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
+REQD_PERMISSIONS = "https://t.me/TEACH_TEAMOP"
+GIT_REPO_LINK = "https://github.com"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
-    "I'm a bot that can delete <s>all</s> "
-    "your channel or supergroup messages. "
+    "ɪ'ᴍ ᴀ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ✌🏻 <s>all</s> "
+    "ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴏʀ sᴜᴘᴇʀɢʀᴏᴜᴘ ᴍᴇssᴀɢᴇs. "
     "\n\n"
-    f"To use me: read 👉 {REQD_PERMISSIONS} 👈"
+    f"ᴛᴏ ᴜsᴇ ᴍᴇ: ʀᴇᴀᴅ 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
-    f"In case of issues, contact 👉 {GIT_REPO_LINK} 👈"
+    f"ɪɴ ᴄᴀsᴇ ᴏғ ɪssᴜᴇs, ᴄᴏɴᴛᴀᴄᴛ 👉 {GIT_REPO_LINK} 👈"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
 BEGINNING_DEL_ALL_MESSAGE = get_config("BEGINNING_DEL_ALL_MESSAGE", (
-    "trying to delete all messages"
+    "ᴛʀʏɪɴɢ ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ✨"
 ))
 IN_CORRECT_PERMISSIONS_MESSAGE = get_config("IN_CORRECT_PERMISSIONS_MESSAGE", (
     "something went wrong. \n\n"
     "<code>{}</code>"
     "\n\n"
     f"please verify <a href='{REQD_PERMISSIONS}'>all permissions</a>, "
-    "and try again after sometime."
+    "ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴀғᴛᴇʀ sᴏᴍᴇᴛɪᴍᴇ."
 ))
 SEL_DEL_COMMAND = get_config("SEL_DEL_COMMAND", "seldel")
 BEGINNING_SEL_DEL_MESSAGE = get_config("BEGINNING_SEL_DEL_MESSAGE", (
-    "trying to delete your selected messages"
+    "ᴛʀʏɪɴɢ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ sᴇʟᴇᴄᴛᴇᴅ ᴍᴇssᴀɢᴇs 🥀"
 ))
 DEL_FROM_COMMAND = get_config("DEL_FROM_COMMAND", "delfrom")
 DEL_TO_COMMAND = get_config("DEL_TO_COMMAND", "delto")
@@ -116,8 +116,8 @@ NOT_USED_DEL_FROM_DEL_TO_MESSAGE = get_config(
 )
 THANK_YOU_MESSAGE = get_config(
     "THANK_YOU_MESSAGE", (
-        "Thank You for using me, "
-        f"Join {REQD_PERMISSIONS} to support this Telegram Bot"
+        "ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ sᴛᴀʀ ʙᴏᴛ, "
+        f"ᴊᴏɪɴ {REQD_PERMISSIONS} ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴛʜɪs ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ"
     )
 )
 TL_FILE_TYPES = (
