@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# (c) Star op
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-""" MtProto Bot """
+""" Dellall Bot """
 
 from pyrogram import (
     Client,
@@ -34,7 +34,7 @@ from .user import User
 
 
 class Bot(Client):
-    """ modded client for MessageDeletERoBot """
+    """ modded client for Dellallbot """
     BOT_ID: int = None
     USER: User = None
     USER_ID: int = None
@@ -68,7 +68,7 @@ class Bot(Client):
         # hack to get the entities in-memory
         await self.USER.send_message(
             usr_bot_me.username,
-            "join https://t.me/SpEcHlDe/857"
+            "join https://t.me/TEACH_TEAMOP"
         )
 
     async def stop(self, *args):
